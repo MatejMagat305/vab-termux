@@ -9,7 +9,7 @@ case $(uname -m) in
 esac
 s_version=$(termux-info | grep -A1 "Android version" | grep -Po "\\d+")
 version=$(($s_version+0))
-if ((version < 9)) then
+if (version < 9) then
 	echo 'unfortunately anroid must be 9 or above'
 	exit 1
 fi
