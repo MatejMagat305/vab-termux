@@ -7,3 +7,6 @@ Script for easy fetch ndk and sdk to compile apk with vab
 
 # note
 The limitations is from https://github.com/Lzhiyong/termux-ndk, and new versions of NDK will on his git, this is for lazy ones and for sample what is possible ...
+
+# video tutorial
+https://www.youtube.com/watch?v=7aUh39w_-2Q
