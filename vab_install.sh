@@ -21,29 +21,29 @@ pkg install aapt apksigner dx ecj openjdk-17 git wget
 echo '================================================================'
 echo '                     download sdk.zip'
 echo '================================================================'
-wget https://github.com/Lzhiyong/termux-ndk/releases/download/android-sdk/android-sdk-aarch64.zip
+cd ~ && wget https://github.com/Lzhiyong/termux-ndk/releases/download/android-sdk/android-sdk-aarch64.zip
 echo '================================================================'
 echo '                               unzip sdk.zip'
 echo '================================================================'
-unzip -qq android-sdk-aarch64.zip
+cd ~ && unzip -qq android-sdk-aarch64.zip
 ]echo '================================================================'
 echo '                              tidy sdk.zip'
 echo '================================================================'
-rm android-sdk-aarch64.zip
+cd ~ && rm android-sdk-aarch64.zip
 
 echo '================================================================'
 echo '                     download ndk.zip'
 echo '================================================================'
-wget https://github.com/Lzhiyong/termux-ndk/releases/download/ndk-r23/android-ndk-r23c-aarch64.zip
+cd ~ && wget https://github.com/Lzhiyong/termux-ndk/releases/download/ndk-r23/android-ndk-r23c-aarch64.zip
 
 echo '================================================================'
 echo '                               unzip ndk.zip'
 echo '================================================================'
-unzip -qq android-ndk-r23c-aarch64.zip
+cd ~ && unzip -qq android-ndk-r23c-aarch64.zip
 echo '================================================================'
 echo '                               tidy ndk.zip'
 echo '================================================================'
-rm android-ndk-r23c-aarch64.zip
+cd ~ && rm android-ndk-r23c-aarch64.zip
 
 
 echo '================================================================'
@@ -66,8 +66,8 @@ echo '================================================================'
 echo '                               install vlang'
 echo '================================================================'
 pkg install clang libexecinfo libgc libgc-static make cmake
-git clone https://github.com/vlang/v
-cd v && make && ./v symlink
+cd ~ && git clone https://github.com/vlang/v
+cd ~ && cd v && make && ./v symlink
 
 echo '================================================================'
 echo '                               install vab'
