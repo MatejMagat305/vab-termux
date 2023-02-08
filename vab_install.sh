@@ -16,7 +16,7 @@ fi
 echo '================================================================'
 echo '                     install dependencies'
 echo '================================================================'
-pkg install aapt apksigner dx ecj openjdk-17 git wget
+pkg update && pkg upgrade && pkg install aapt apksigner dx ecj openjdk-17 git wget
 
 echo '================================================================'
 echo '                     download sdk.zip'
