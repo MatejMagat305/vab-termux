@@ -1,7 +1,7 @@
 # vab-termux
 Script for easy fetch ndk and sdk to compile apk with vab
 # requirements
-- more than free 3.6GB on storage 
+- more than free 4.1GB on storage 
 - arm64 (unfortunately on arm32 doesn't exist ndk)
 - android 9+
 
