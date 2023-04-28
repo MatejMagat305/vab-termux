@@ -10,7 +10,6 @@ Script for easy fetch ndk and sdk to compile apk with vab
 - Vlang is still highly developt, so still can acour error which is error of last commit on vlang branch ...
 
 # curent issues
-- https://github.com/vlang/v/issues/17262
 
 # video tutorial
 https://www.youtube.com/watch?v=7aUh39w_-2Q
