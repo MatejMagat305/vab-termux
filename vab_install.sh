@@ -34,8 +34,7 @@ cd ~ && rm android-sdk-aarch64.zip
 echo '================================================================'
 echo '                     download ndk.zip'
 echo '================================================================'
-cd ~ && wget https://github.com/Lzhiyong/termux-ndk/releases/download/ndk-r23/android-ndk-r23c-aarch64.zip
-
+cd ~ && wget https://github.com/lzhiyong/termux-ndk/releases/download/android-ndk/android-ndk-r26b-aarch64.zip
 echo '================================================================'
 echo '                               unzip ndk.zip'
 echo '================================================================'
