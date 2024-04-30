@@ -38,18 +38,18 @@ cd ~ && wget https://github.com/lzhiyong/termux-ndk/releases/download/android-nd
 echo '================================================================'
 echo '                               unzip ndk.zip'
 echo '================================================================'
-cd ~ && unzip -qq android-ndk-r23c-aarch64.zip
+cd ~ && unzip -qq android-ndk-r26b-aarch64.zip
 echo '================================================================'
 echo '                               tidy ndk.zip'
 echo '================================================================'
-cd ~ && rm android-ndk-r23c-aarch64.zip
+cd ~ && rm android-ndk-r26b-aarch64.zip
 
 
 echo '================================================================'
 echo '                               set env variables'
 echo '================================================================'
 echo 'export ANDROID_HOME=/data/data/com.termux/files/home/android-sdk/' >> ~/../usr/etc/profile
-echo 'export ANDROID_NDK_HOME=/data/data/com.termux/files/home/android-ndk-r23c/' >> ~/../usr/etc/profile
+echo 'export ANDROID_NDK_HOME=/data/data/com.termux/files/home/android-ndk-r26b/' >> ~/../usr/etc/profile
 echo 'export ANDROID_NDK_ROOT=$ANDROID_NDK_HOME' >> ~/../usr/etc/profile
 source ~/../usr/etc/profile
 
